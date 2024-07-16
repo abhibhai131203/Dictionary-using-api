@@ -19,7 +19,7 @@ h1{
 
  .container{
     border:2px solid black;
-    min-height: 150px;
+    min-height: 250px;
     width:100%; 
     flex-basis:500px;
     padding:10px;
