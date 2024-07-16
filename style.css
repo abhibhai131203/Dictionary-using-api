@@ -1,0 +1,71 @@
+*{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color:#0b3764;
+}
+
+body{
+    /* background: black; */
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("beautiful-color-ui-gradients-backgrounds-50-shades-of-grey.png");
+    background-size:cover ; 
+    
+}
+h1{
+    text-shadow: 3px 3px rgba(0,0,0,0.3);
+}
+
+ .container{
+    border:2px solid black;
+    min-height: 150px;
+    width:100%; 
+    flex-basis:500px;
+    padding:10px;
+    border-radius: 10px;
+    background-color:white;
+}
+.control{
+    position:relative;
+    top:15px;
+}
+
+input{
+    color:black;
+}
+.search{
+    width:200px;
+}
+
+#go{
+    position:relative;
+    left:15px;
+}
+
+.play{
+    position:relative;
+    left:30px;
+
+}
+.content{
+    margin-top:20px;
+    display:none;
+}
+
+.word{
+    font-style: bold;
+    font-size:2rem;
+}
+.mean , .part , .eg{
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* border-right:5px solid rgb(188, 105, 105); */
+    border-left:5px solid rgb(188, 105, 105);
+    padding-left:10px;
+    margin-bottom:5px;
+}
+
+.meaning, .pos, .example{
+    margin:5px;
+}

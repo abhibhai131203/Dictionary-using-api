@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400&family=Montserrat:wght@300;400;500;600;700&family=Oswald&family=Poppins:wght@300&family=Roboto+Condensed&family=Roboto:ital,wght@1,700&family=Ubuntu&family=Ysabeau+SC&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1><b>ENGLISH DICTIONARY</b></h1>
+        <div class="control">
+            <input placeholder="Enter the word..." class="search">
+        <button id="go" class="btn btn-success">Search</button>
+        <button class="play btn btn-secondary">Play Audio</button>
+        </div>
+        
+        <div class="content">
+            <div class="word">Word</div>
+            <hr>
+            <div class="mean">Meaning</div>
+            <div class="meaning">Having fun</div>
+            <hr>
+            <div class="part">Part of Speech</div>
+            <div class="pos">noun</div>
+            <hr>
+            <div class="eg">Example</div>
+            <div class="example">Nice to meet you.</div>
+            <hr>
+        </div>
+
+        <script src="app.js"></script>
+    </div>
+
+</body>
+
+</html>
